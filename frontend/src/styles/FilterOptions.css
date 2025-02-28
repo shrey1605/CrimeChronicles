@@ -1,0 +1,49 @@
+
+  
+/* FilterOptions.css */
+.filter-options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 0.5rem;
+    width: fit-content;
+    margin-inline: auto;
+    border-radius: 15px ;
+    overflow: hidden;
+    gap: 3px;
+  }  
+  .chart-type-selector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px #e1e8ed;
+    padding-block: 0.5rem;
+    width: fit-content;
+    margin-inline: auto;
+    border-radius: 15px ;
+    overflow: hidden;
+  }  
+
+.filter-options span, .chart-type-selector span{
+  padding: 1rem 0.75rem;
+  cursor: pointer;
+  font-size: 1.05rem;
+  /* border: solid 3px violet; */
+}
+
+.filter-options input[type="radio"]:checked + span,
+.chart-type-selector input[type="radio"]:checked + span
+{
+  background-color: #067ec9; /* Blue color when selected */
+  color: #f5f8fa;
+}
+
+.filter-options input[type="radio"]:not(:checked) + span{
+  background-color: #e1e8ed; /* color when selected */
+}
+
+
+.filter-options input[type="radio"],
+.chart-type-selector input[type="radio"] {
+  display: none; /* Hide the default radio button */
+}

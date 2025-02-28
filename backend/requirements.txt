@@ -1,0 +1,8 @@
+uvicorn
+fastapi
+numpy
+sentence-transformers
+faiss-cpu
+psycopg2-binary
+passlib
+bcrypt
