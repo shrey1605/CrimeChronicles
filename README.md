@@ -22,7 +22,7 @@ The **LA Crime Data Query and Visualization Platform** is a modern web-based app
 ## **Purpose**
 
 This platform is designed for:
-- **City Officials**: To plan and strategize crime prevention measures.
+- **City Officials**: To plan and strategize crime prevention measures
 - **Researchers**: To study trends in crime patterns over time.
 - **General Public**: To gain insights into local safety and crime statistics.
 
